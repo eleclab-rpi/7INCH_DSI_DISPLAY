@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=rpi-backlight GUI
+Exec=/home/pi/.local/bin/rpi-backlight-gui
+Icon=/usr/share/icons/HighContrast/256x256/status/display-brightness.png
+Categories=Utility;

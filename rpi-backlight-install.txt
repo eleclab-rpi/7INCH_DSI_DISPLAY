@@ -1,0 +1,12 @@
+pip3 install rpi-backlight
+
+echo 'SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"' | sudo tee -a /etc/udev/rules.d/backlight-permissions.rules
+
+chmod +x /home/pi/.local/share/applications/rpi-backlight.desktop
+
+
+ right-click on the panel and choose Add / Remove panel items. Select Application Launch Bar and click Preferences:
+Panel Preferences
+
+Select rpi-backlight GUI on the right and click Add:
+
